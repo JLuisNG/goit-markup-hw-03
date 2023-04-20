@@ -21,7 +21,7 @@ section{
 
 .nav-container {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
 }
 
@@ -78,8 +78,12 @@ section{
     color: #2196F3;
 }
 
-header {
-    border-bottom: 1px solid #ECECEC;
+header{
+    border: 1px solid #ECECEC;
+}
+
+footer{
+    border: 1px solid #ECECEC;
 }
 
 .contacts-nav{
@@ -91,11 +95,13 @@ header {
 
 .content-2 .container {
     background-color: #2F303A;
+
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .content-2 h1 {
@@ -257,6 +263,7 @@ header {
 
 .content-6 .container{
     background-color: #2F303A;
+
 }
 
 .Direccion address{
